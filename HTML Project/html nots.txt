@@ -1,0 +1,97 @@
+# SRC
+*src is used for image and scripts
+# href
+* href is used for link
+
+
+<input type="button">
+<input type="checkbox">
+<input type="color">
+<input type="date">
+<input type="datetime-local">
+<input type="email">
+<input type="file">
+<input type="hidden">
+<input type="image">
+<input type="month">
+<input type="number">
+<input type="password">
+<input type="radio">
+<input type="range">
+<input type="reset">
+<input type="search">
+<input type="submit">
+<input type="tel">
+<input type="text"> (default value)
+<input type="time">
+<input type="url">
+<input type="week">
+
+
+
+
+-----------------------------------
+The HTML <form> element can contain one or more of the following form elements:
+
+<input>
+<label>
+<select>
+<textarea>
+<button>
+<fieldset>
+<legend>
+<datalist>
+<output>
+<option>
+<optgroup>
+
+
+
+
+-----------------------------------------
+#Tags
+
+<sup></sup>--letter up
+<sub></sub>--letter down
+<q></q>---Quateion mark used
+<blockquote></blockQuote>--Quateion mark used
+<abbr></abbr>-- Abbrivation tag
+<cite></cite>-------cite name
+<dfn></dfn>-------definition name
+<address></address>------address or emailaddress
+<del></del>----delete information
+<dt></dt>
+<dd></dd>
+<ins></ins>---new information add
+
+----------------------------------------
+
+#FLEX
+
+__Main Access Align
+
+justify-content:flex-end;
+justify-content:flex-start;
+
+__Cross Axis Align
+
+align-items:start;
+align-items:end;
+
+__Commands
+
+flex:1;---Grow rate of when the web page will stretche
+
+flex-shrink:0;---To maintaine the orginal size web page will stretche the minimizing
+
+flex-shrink:1;---To maintaine the orginal size during the minimizing compare other box minimizing low shrink 0 shrink  1
+
+flex-shrink:2;---To maintaine the orginal size during the minimizing compare other box minimizing low shrink 1 shrink  2
+
+flex:1 1 0px;
+
+first parameter: Grow rate
+second parameter: Shrink rate
+threed parameter: Basis
+
+
